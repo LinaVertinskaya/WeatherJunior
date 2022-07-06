@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Weather.Jun' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'SwiftSVG'
+
+  # Pods for Weather.Jun
+
+  target 'Weather.JunTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Weather.JunUITests' do
+    # Pods for testing
+  end
+
+end
